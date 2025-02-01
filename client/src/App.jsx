@@ -8,12 +8,14 @@ import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import About from "./pages/about";
 import Profile from "./pages/Profile";
+import Header from "./components/Header";
 
 function App() {
 	const [count, setCount] = useState(0);
 
 	return (
 		<BrowserRouter>
+			<Header />
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/sign-in" element={<SignIn />} />
