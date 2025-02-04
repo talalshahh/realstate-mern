@@ -20,6 +20,8 @@
 	"homepage": "https://github.com/talalshahh/realstate-mern#readme",
 	"description": "",
 	"dependencies": {
-		"express": "^4.21.2"
+		"dotenv": "^16.4.7",
+		"express": "^4.21.2",
+		"mongoose": "^8.9.6"
 	}
 }
