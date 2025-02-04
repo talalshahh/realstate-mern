@@ -1,0 +1,25 @@
+{
+	"name": "realstate-mern",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon api/index.js",
+		"start": "node api/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/talalshahh/realstate-mern.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/talalshahh/realstate-mern/issues"
+	},
+	"homepage": "https://github.com/talalshahh/realstate-mern#readme",
+	"description": "",
+	"dependencies": {
+		"express": "^4.21.2"
+	}
+}
